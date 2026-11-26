@@ -1,9 +1,9 @@
-# LeitnAIr — Offline-First AI Vocabulary Coach
+# LeitnAIr — AI Vocabulary Coach
 
 > **Showcase Repository** — Public portfolio overview (architecture, UI previews, and engineering highlights).  
 > Source code is maintained in a private repository; live walkthroughs are available on request for technical interviews.
 
-LeitnAIr is a cross-platform (**Web PWA** + **Native Android**) vocabulary learning system built around **FSRS-6 spaced repetition**, **offline-first local study**, **BYOK / hosted AI answer evaluation**, and **real-time speech-to-text**.
+LeitnAIr is a cross-platform (**Web App** + **Native Android**) vocabulary learning system built around **FSRS-6 spaced repetition**, **local study**, **BYOK / hosted AI answer evaluation**, and **real-time speech-to-text**.
 
 ---
 
@@ -27,7 +27,7 @@ LeitnAIr is a cross-platform (**Web PWA** + **Native Android**) vocabulary learn
 ## Key Capabilities
 
 - **Cross-Platform FSRS-6 Parity (`Py-FSRS 6.3.3`)**: Identical scheduling math (`Again` / `Hard` / `Good` / `Easy`, stability, difficulty, due dates) implemented in both the Python backend and the native Java Android engine (`LocalStudy`), backed by parity tests.
-- **Offline-First Android Engine**: Ships the bundled dictionary into private Android SQLite storage on first launch. Guests and signed-in learners can study, import personal CSV/JSON v2 word lists, and grade answers without an internet connection, with conflict-aware cloud sync.
+- **Local Android Engine**: Ships the bundled dictionary into private Android SQLite storage on first launch. Guests and signed-in learners can study, import personal CSV/JSON v2 word lists, and grade answers without an internet connection, with conflict-aware cloud sync.
 - **Flexible Answer Evaluation**:
   - **Self-Assessment / Offline Rules**: Zero-cost, zero-network fallback with deterministic grading.
   - **Hosted Premium Evaluation**: Authenticated server-side evaluation with subscription & daily regional quota enforcement.
